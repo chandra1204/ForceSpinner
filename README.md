@@ -1,2 +1,2 @@
-# ForceSpinner [here](https://github.com/chandra1204/ForceSpinner)
+# ForceSpinner [here](http://chandra1204.github.io/ForceSpinner/)
 Killer Loaders inspired by Material Design for Salesforce UX
