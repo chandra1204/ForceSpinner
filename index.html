@@ -4,35 +4,36 @@
     <meta charset="UTF-8">
     <title>Forcespinner by mailtoharshit</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/forcesnipper.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="src/css/forcesnipper.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <head>
   <!-- Material Design Lite -->
   <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+  <script src="https://cdn.rawgit.com/chandra1204/ForceSpinner/gh-pages/src/js/forcespinner.js"></script>
   <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css" />
   <!-- Material Design icon font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <script>
-    //code to generate random background color 
+    //code to generate random background color
       function rg(m, n) {
         return Math.floor( Math.random() * (n - m + 1) ) + m;
     }
-    
+
     function hex(i) {
         return i.toString(16);
     }
-    
+
     function randColor() {
         return '#' + hex(rg(1, 15)) + hex(rg(1, 15)) + hex(rg(1, 15)) +
             hex(rg(1, 15)) + hex(rg(1, 15)) + hex(rg(1, 15));
     }
-    
+
       function loadallspinners(){
        forceSpin(div1,'google');
        forceSpin(div2,'dotsloader','white', 'transparent');
        forceSpin(div3,'material');
        forceSpin(div4,'whirlyloader');
-       
+
        //change color here
        forceSpin(div5, 'facebook', 'black', 'transparent');
         forceSpin(div6, 'windows', 'white', 'transparent');
@@ -42,27 +43,27 @@
     forceSpin(div10, 'bubbles', 'white', 'transparent');
     forceSpin(div11,'throbberloader');
     forceSpin(div12, '', 'black', 'transparent');
-        
-       //$('.mdl-cell').css("background",randColor()); 
-      
+
+       //$('.mdl-cell').css("background",randColor());
+
       }
   </script>
   <style>
     body {
       background: white;
     }
-    
+
     .text {
       padding-bottom: 40px;
       font-family "serif";
       font-size: 14px;
       color: black;
     }
-    
+
     .mdl-grid {
       padding: 0!important;
     }
-    
+
     .mdl-cell {
       background: #136873;
       padding: 50px 0;
@@ -70,7 +71,7 @@
       color: #fff;
       font-weight: bold;
     }
-    
+
     .demo-grid-1 .mdl-cell {
       background: #FF4081;
     }
